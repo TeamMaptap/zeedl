@@ -44,7 +44,7 @@ async def help_user(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["donate"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["vkgckc"]))
 async def get_me_info(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/donate")
@@ -65,7 +65,7 @@ async def start(bot, update):
         await bot.get_chat_member(chat_id='@UrlUpRobotV2_bot_updates',user_id=update.chat.id)
     except:
         await bot.send_message(
-            text="You must be join our channel for use the bot @UrlUpRobotV2_bot_updates ",
+            text="ʏᴏᴜ ᴍᴜꜱᴛ ʙᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ꜰᴏʀ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ @UrlUpRobotV2_bot_updates ",
             chat_id = update.chat.id
         )
         return
@@ -78,7 +78,7 @@ async def start(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["octerbfk"]))
 async def upgrade(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/upgrade")
