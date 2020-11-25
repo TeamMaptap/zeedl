@@ -1,5 +1,5 @@
 {
-  "name": "MK Uploader",
+  "name": " Uploader",
   "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
   "keywords": [
     "telegram",
@@ -16,7 +16,7 @@
   ],
   "success_url": "https://telegram.dog/AnyDLBot",
   "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/TeamMaptap/Uplodolitv2",
+  "repository": "https://github.com/TeamMaptap/zeedl",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
