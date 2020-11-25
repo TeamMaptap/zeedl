@@ -1,8 +1,8 @@
 class Translation(object):
-    START_TEXT = """🙋‍♂Hey, {} 
-This is a Telegram File URL Upload Bot!🤖
+    START_TEXT = ""🙋‍♂ʜᴇʏ,
+ᴛʜɪꜱ ɪꜱ ᴀ ᴢᴇᴇ5 ᴜʀʟ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ
 
-🔗 Please send me any file url, i will upload it to telegram as file.
+🔗 ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴍᴇ ᴢᴇᴇ5 ᴜʀʟ, ɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ.
 
 
 """
