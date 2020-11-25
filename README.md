@@ -1,18 +1,8 @@
-## [AnyDLBot](https://telegram.dog/AnyDLBot)
-
-**There are multiple things I can do**:
-
-**FEATURES**:  
-![​]
 
 
 ### Installation
 
 #### The Easiest Way
-
-**upgrade** your subscription for [@AnyDL_Bot](https://telegram.dog/AnyDl_Bot) without having to run anything on your own
-
-#### The Easy Way
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -27,7 +17,7 @@ cp sample_config.py config.py
 python bot.py
 ```
 
-- For FeedBack and Suggestions, please feel free to say in [@SpEcHlDe](https://telegram.dog/ShrimadhaVahdamirhS)
+
 
 #### LICENSE
 - GPLv3
