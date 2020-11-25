@@ -1,11 +1,11 @@
 class Translation(object):
-    START_TEXT = ""🙋‍♂ʜᴇʏ,
+    START_TEXT = "" 🙋Hey.
 ᴛʜɪꜱ ɪꜱ ᴀ ᴢᴇᴇ5 ᴜʀʟ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ
 
-🔗 ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴍᴇ ᴢᴇᴇ5 ᴜʀʟ, ɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ.
+🔗 ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴍᴇ ᴢᴇᴇ5 ᴜʀʟ, ɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ."""
 
 
-"""
+
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = " <b>No upgrades now.</b> \n<b>Now this bot full free. 🎊</b> "
@@ -37,7 +37,7 @@ class Translation(object):
 
 
 """
-    HELP_USER = """🤖🤖 ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴢᴇᴇ5 ᴘʀᴏɢʀᴀᴍ ʟɪɴᴋ.
+    HELP_USER = """🤖 ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴢᴇᴇ5 ᴘʀᴏɢʀᴀᴍ ʟɪɴᴋ.
 ᴡɪʟʟ ɢɪᴠᴇ ɪᴛ ᴛᴏ ᴅɪʀᴇᴄᴛ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ
 
 🔘 ᴘʀᴇᴍɪᴜᴍ ᴄᴏɴᴛᴇɴᴛ ꜱᴜᴘᴘᴏʀᴛ
