@@ -37,18 +37,18 @@ This is a Telegram File URL Upload Bot!🤖
 
 
 """
-    HELP_USER = """🤖 i can upload telegram files:
-If you want to upload file by URL just to sent a valid direct URL i will upload it to telegram.
+    HELP_USER = """🤖🤖 ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ᴢᴇᴇ5 ᴘʀᴏɢʀᴀᴍ ʟɪɴᴋ.
+ᴡɪʟʟ ɢɪᴠᴇ ɪᴛ ᴛᴏ ᴅɪʀᴇᴄᴛ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ
 
-🔘 Do you need a custom filename follow this format example👇
-http://www.example.com|example.apk
-🔘 You need a thumbnail just sent me an image.
-🔘 Your download speed will depend on your link speed.
-🔘 YouTube_dl supported.
+🔘 ᴘʀᴇᴍɪᴜᴍ ᴄᴏɴᴛᴇɴᴛ ꜱᴜᴘᴘᴏʀᴛ
 
-<a href="https://t.me/UrlUpRobotV2_bot_updates/9">[If you have any doubts, Watch tutorial for click here]</a>
+🔘 ᴜꜱᴇ ɪᴅᴍ ꜰᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ꜰɪʟᴇ
 
-📮 if you find any bugs report @GregoryFrank
+
+[ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛꜱ, ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ꜰᴏʀ ᴄʟɪᴄᴋ ʜᴇʀᴇ]
+
+
+📮 ɪꜰ ʏᴏᴜ ꜰɪɴᴅ ᴀɴʏ ʙᴜɢꜱ ʀᴇᴘᴏʀᴛ @ᴍᴏʀɪxᴠᴀʟᴛᴇʀ
 
 """
  
