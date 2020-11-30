@@ -48,10 +48,10 @@ async def help_user(bot, update):
         reply_to_message_id=update.message_id
     )
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["donate"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["xcx596"]))
 async def about_meh(bot, update):
     # logger.info(update)
-    TRChatBase(update.from_user.id, update.text, "/donate")
+    TRChatBase(update.from_user.id, update.text, "/xcx596")
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.ABOUT_ME,
