@@ -8,7 +8,7 @@ class Translation(object):
 
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = " <b>No upgrades now.</b> \n<b>Now this bot full free. 🎊</b> "
+    UPGRADE_TEXT = "https://play.google.com/store/apps/details?id=idm.internet.download.manager"
     FORMAT_SELECTION = " <b>Choose the format👇</b> <a href='{}'>"
     SET_CUSTOM_USERNAME_PASSWORD = """
 """
@@ -48,7 +48,7 @@ class Translation(object):
 [ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛꜱ, ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ꜰᴏʀ ᴄʟɪᴄᴋ ʜᴇʀᴇ]
 
 
-📮 ɪꜰ ʏᴏᴜ ꜰɪɴᴅ ᴀɴʏ ʙᴜɢꜱ ʀᴇᴘᴏʀᴛ @ᴍᴏʀɪxᴠᴀʟᴛᴇʀ
+📮 ɪꜰ ʏᴏᴜ ꜰɪɴᴅ ᴀɴʏ ʙᴜɢꜱ ʀᴇᴘᴏʀᴛ @Edwardnowden
 
 """
  
