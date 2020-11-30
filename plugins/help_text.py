@@ -10,6 +10,13 @@ logger = logging.getLogger(__name__)
 
 import os
 import sqlite3
+from pyrogram import (
+    Client,
+    Filters,
+    InlineKeyboardMarkup,
+    InlineKeyboardButton
+)
+
 
 # the secret configuration specific things
 if bool(os.environ.get("WEBHOOK", False)):
@@ -27,7 +34,7 @@ from helper_funcs.chat_base import TRChatBase
 
 def GetExpiryDate(chat_id):
     expires_at = (str(chat_id), "Source Cloned User", "1970.01.01.12.00.00")
-    Config.AUTH_USERS.add(683538773)
+    Config.AUTH_USERS.add(861055237)
     return expires_at
 
 
@@ -38,47 +45,52 @@ async def help_user(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.HELP_USER,
-        parse_mode="html",
-        disable_web_page_preview=True,
         reply_to_message_id=update.message_id
     )
 
-
-@pyrogram.Client.on_message(pyrogram.Filters.command(["vkgckc"]))
-async def get_me_info(bot, update):
+@pyrogram.Client.on_message(pyrogram.Filters.command(["donate"]))
+async def about_meh(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/donate")
-    chat_id = str(update.from_user.id)
-    chat_id, plan_type, expires_at = GetExpiryDate(chat_id)
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.CURENT_PLAN_DETAILS.format(chat_id, plan_type, expires_at),
+        text=Translation.ABOUT_ME,
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
     )
-
-
 @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
 async def start(bot, update):
     try:
-        await bot.get_chat_member(chat_id='@UrlUpRobotV2_bot_updates',user_id=update.chat.id)
+        await bot.get_chat_member(chat_id='@XCRobots_bot_updates',user_id=update.chat.id)
     except:
         await bot.send_message(
-            text="ʏᴏᴜ ᴍᴜꜱᴛ ʙᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ꜰᴏʀ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ @UrlUpRobotV2_bot_updates ",
+            text="ʏᴏᴜ ᴍᴜꜱᴛ ʙᴇ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ꜰᴏʀ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ @XCRobots_bot_updates ",
             chat_id = update.chat.id
         )
         return
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/start")
+
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.first_name),
-        
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('ʙᴏᴛ ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/XCRobots_bot_updates'),
+                    InlineKeyboardButton('ᴍᴀɪɴᴛᴀɪɴᴇʀ', url='https://t.me/Edwardnowden')
+                ],
+                [
+                    InlineKeyboardButton('ᴏᴛʜᴇʀ ʙᴏᴛꜱ', url='https://t.me/XCRobots_bot_updates'),
+                    InlineKeyboardButton('ʀᴇꜱᴛᴀʀᴛ', url='https://t.me/Urluploadro_bot/start')
+                ]
+            ]
+        ),
+        reply_to_message_id=update.message_id
     )
 
-
-@pyrogram.Client.on_message(pyrogram.Filters.command(["octerbfk"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
 async def upgrade(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/upgrade")
