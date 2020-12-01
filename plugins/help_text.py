@@ -83,7 +83,7 @@ async def start(bot, update):
                 ],
                 [
                     InlineKeyboardButton('ᴏᴛʜᴇʀ ʙᴏᴛꜱ', url='https://t.me/XCRobots_bot_updates'),
-                    InlineKeyboardButton('ʀᴇꜱᴛᴀʀᴛ', url='https://t.me/Urluploadro_bot/start')
+                    InlineKeyboardButton('ᴛᴜᴛᴏʀɪᴀʟ', url='https://t.me/XCRobots_bot_updates/59')
                 ]
             ]
         ),
